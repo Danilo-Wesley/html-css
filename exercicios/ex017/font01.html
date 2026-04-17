@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas absolutas:
+            cm, mm , in (polegada), px*, pt(ponto), pc (paica)
+            
+            Medidas relativas
+            em*(altura do m Maisculo atual da fonte), ex (altura x duma fonte), rem, vw, vh, %
+
+            16px é o padrao, e 16px = geralmente 1em
+            */
+            /*font-size: 1em ;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;*/
+
+            /* weight(peso); width (largura); height (altura)*/
+            /* tipos de peso: lighter, normal, bold, bolder*/
+
+            /* inves desse tanto de linha da de fazer assim:
+            - font-style -> font-weight -> font-size -> font-family nome é shorthand
+            */
+            font: italic bold 1.2em 'Arial', sans-serif;
+        }
+        h1{
+            font: bold 4em 'arial';
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Trabalhando com fontes
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis aspernatur non deserunt atque possimus, similique labore sapiente nam qui optio inventore porro officiis esse? Molestiae repellat excepturi dignissimos sed. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid odio alias tempore, ratione architecto libero nemo harum labore laborum ipsa iure quo a aut amet. Aperiam error nemo molestias repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptate reiciendis sed commodi recusandae nam fugiat suscipit omnis nihil incidunt error dolor, debitis delectus autem nulla voluptatibus aliquid adipisci vero.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, fugit pariatur sunt quidem ut exercitationem quae? In architecto temporibus, rerum molestias dolorem animi ad eos quas unde cumque soluta incidunt?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima amet aliquid autem deleniti laudantium quia ipsam beatae, sint obcaecati, eum perferendis nam temporibus odit enim esse eveniet recusandae numquam eligendi!</p>
+</body>
+</html>

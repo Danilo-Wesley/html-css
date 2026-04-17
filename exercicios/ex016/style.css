@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+body{
+    background-image: linear-gradient(to left, #1F3E66,#183152, #15233D );
+}
+main{
+    
+    /*background-color: ##385D8C; fz um quadrado ao redor do main, mas nao vou usar*/
+    /*border-radius: 20px; arrendonda, porem nao usei backgroud-color*/
+    /*box-shadow: 10px 10px 10px black; sombra na box, nao estou usando*/
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+   color: #D0E0F5;
+   text-align: center;
+   text-shadow: 1px 1px 1px #79838f;
+   font-size: 3em;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+h2{
+    color: #88A8D1;
+    margin-top: 0;
+}
+p{
+    text-align: justify;
+    color: #D0E0F5;
+}
+marquee{
+    color: white;
+    font-size: 100px;
+}
