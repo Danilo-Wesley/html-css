@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
 </head>
 <body>
-    
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <!-- tem q ter o mesmo NAME -->
+            <input type="radio" name="sex" id="ismax">
+            <label for="ismax">Masculino <br></label>
+            <input type="radio" name="sex" id="isfem" checked>
+            <label for="isfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="fut" id="ifut" checked> <label for="ifut">Futebol <br></label>
+            <input type="checkbox" name="bas" id="ibas"> <label for="ibas">Basquete <br></label>
+            <input type="checkbox" name="nat" id="inat"> <label for="inat">Natação <br></label>
+            <input type="checkbox" name="ten" id="iten"> <label for="iten">Tênis <br></label>
+            <input type="checkbox" name="f1" id="if1">
+            <label for="if1">Formúla 1</label>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
