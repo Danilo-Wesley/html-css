@@ -24,7 +24,9 @@ main{
     border-radius: 10px;
     padding: 10px;
 }
-
+h2::before{
+    content: 'Celular';
+}
 h1{
     text-align: center;
     color: white;
